@@ -14,7 +14,7 @@ form.onsubmit = async (event) => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             model: 'llama3.2',
-            prompt: `${prompt}. Please keep responses between one and three sentences.`,
+            prompt: `${prompt}`,
             stream: false
         })
     })
