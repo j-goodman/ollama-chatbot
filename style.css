@@ -54,3 +54,7 @@ button {
 button:hover {
     background: #333;
 }
+
+.big-text {
+    font-size: 90px;
+}
